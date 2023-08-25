@@ -1,0 +1,672 @@
+/* color setup============================================= */
+:root {
+  --green: #5cb85f;
+  --bg: #f1f3ff;
+  --blue: #0d28a6;
+  --dark: #000000;
+}
+
+/* navbar============================================================================= */
+
+.navbar {
+  background-color: var(--bg);
+}
+
+.navbar .brand {
+  width: 100px;
+  height: 34px;
+
+  background-color: var(--blue);
+}
+
+.navbar .nav-link {
+  stylename: Body/14/Light;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--dark);
+}
+
+.navbar .btn {
+  width: 100px;
+  height: 36px;
+  border-radius: 2px;
+
+  background-color: var(--green);
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+/* section hero========================================== */
+
+section.hero {
+  height: 470px;
+  width: 100%;
+  background-color: var(--bg);
+}
+
+section.hero .side-1 {
+  margin-top: 110px;
+}
+section.hero .text-1 {
+  font-family: Helvetica;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--dark);
+}
+
+section.hero .text-2 {
+  stylename: Body/14/Light;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  padding-right: 150px;
+  text-align: left;
+  color: var(--dark);
+}
+
+section.hero .buttons {
+  width: Hug (140px);
+  height: Hug (36px);
+
+  left: 136px;
+
+  border-radius: 2px;
+  gap: 10px;
+  background-color: var(--green);
+}
+
+section.hero .text {
+  stylename: Body/14/Bold;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* img car=========================================== */
+
+section.hero .side-2 {
+  padding-top: 80px;
+  position: relative;
+}
+
+section.hero .side-2 .bg {
+  width: 660px;
+  height: 280px;
+  margin-top: 110px;
+  position: absolute;
+  border-radius: 60px 0px 0px 0px;
+  background-color: var(--blue);
+}
+section.hero .side-2 .img-car {
+  position: absolute;
+  width: 650px;
+
+  margin-top: -180px;
+}
+
+/*section service========================================== */
+section.service {
+  margin-top: 100px;
+}
+
+section.service .side-1 {
+  padding-left: 250px;
+}
+section.service .side-2 {
+  padding: 0 100px 0 30px;
+}
+
+section.service .header {
+  stylename: Heading/24/Bold;
+  font-family: Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--dark);
+}
+
+section.service .desc {
+  padding-right: 200px;
+  stylename: Body/14/Light;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--dark);
+}
+
+section.service .icon-ceklis {
+  margin-right: 20px;
+}
+
+/* section why us========================================== */
+
+section.whyus {
+  margin-top: 100px;
+}
+
+section.whyus .text {
+  width: 100%;
+}
+
+section.whyus .header {
+  stylename: Heading/24/Bold;
+  font-family: Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--dark);
+}
+
+section.whyus .desc {
+  stylename: Body/14/Light;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--dark);
+}
+
+section.whyus .icon {
+  width: 32px;
+  height: 32px;
+  top: 24px;
+  left: 24px;
+  border-radius: 50px;
+}
+
+section.whyus .icon-img {
+  width: 16px;
+  height: 16px;
+}
+
+section.whyus .text-header {
+  stylename: Title/16/Bold;
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--dark);
+}
+
+section.whyus .text-content {
+  stylename: Body/14/Light;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--dark);
+}
+
+section.whyus .cards {
+  width: Hug (268px);
+  height: Hug (196px);
+  padding: 24px;
+  border-radius: 8px;
+  border: 1px solid #d0d0d0;
+  gap: 16px;
+}
+
+/* section testimonial================================================ */
+
+section.section-testimoni {
+  margin-top  : 100px;
+}
+
+.testimonial-heading h2 {
+  stylename: Heading/24/Bold;
+  font-family: Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: var(--dark);
+}
+
+.testimonial-heading p {
+  
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: var(--dark);
+}
+
+
+
+.item {
+  height: 250px;
+  background: var(--bg);
+  border-radius: 8px;
+  align-items: center;
+  padding: 60px 20px 0 20px;
+  
+}
+
+.review {
+  display: flex;
+  align-items: center;
+  
+}
+
+.img-pf {
+  flex:1 ;
+  width: 80px;
+  height: 80px;
+  margin-right: 50px;
+  
+ 
+}
+
+.text-review {
+flex: 6;
+
+}
+
+.text-review p{
+font-family: Helvetica;
+font-size: 14px;
+font-weight: 300;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: var(--dark);
+
+}
+
+.star {
+  display: flex;
+  width: 16px;
+  height: 16px;
+}
+
+/* section cta binar================================ */
+
+section.cta-binar {
+  margin-top: 50px;
+}
+
+section.cta-binar .container {
+  margin-top: 50px;
+  background-color: var(--blue);
+  height: 326px;
+  width: 100%;
+  border-radius: 13px;
+  padding-top: 60px;
+}
+
+section.cta-binar .text-header {
+  font-family: Helvetica;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  letter-spacing: 0em;
+  color: #ffffff;
+}
+
+section.cta-binar .text-desc {
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #ffffff;
+  width: 468px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+section.cta-binar .btn {
+  width: Hug (140px);
+  height: Hug (36px);
+  border-radius: 2px;
+  gap: 10px;
+  background-color: var(--green);
+  margin-top: 50px;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: #ffffff;
+}
+
+/* section faq========================================== */
+
+section.faq {
+  margin-top: 100px;
+  height: 344px;
+}
+
+section.faq .text-header {
+  stylename: Heading/24/Bold;
+  font-family: Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--dark);
+}
+
+section.faq .text-desc {
+  stylename: Body/14/Light;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--dark);
+}
+
+section.faq .text-faq {
+  stylename: Body/14/Light;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--dark);
+}
+
+/* section footer ====================================================== */
+
+section.footer {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+section.footer .alamat,
+.email,
+.cal {
+  stylename: Body/14/Light;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--dark);
+}
+
+section.footer .navigation {
+  padding-left: 40px;
+  text-align: left;
+}
+
+section.footer .service,
+.whyus,
+.testimoni,
+.faq {
+  stylename: Body/14/Regular;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: var(--dark);
+  text-decoration: none;
+}
+
+section.footer .sosmed .text-header {
+  stylename: Body/14/Light;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--dark);
+}
+
+section.footer .icons {
+  display: flex;
+}
+section.footer .icon {
+  width: 32px;
+  height: 32px;
+  top: 24px;
+  left: 24px;
+  border-radius: 50px;
+  background-color: var(--blue);
+}
+
+section.footer .icon-img {
+  width: 16px;
+  height: 16px;
+}
+
+section.footer .copyright .text {
+  stylename: Body/14/Light;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--dark);
+}
+
+section.footer .copyright .brand {
+  width: 100px;
+  height: 34px;
+  top: 36px;
+  left: 873px;
+  background-color: var(--blue);
+}
+
+/* section faq========================================== */
+
+/* resposive================================================= */
+
+@media (max-width: 600px) {
+  /* section hero responsive================================================ */
+
+  .sidebar {
+    padding: 30px 20px 20px 20px;
+    width: 300px !important;
+  }
+  section.hero {
+    height: 669px;
+    background-color: var(--bg);
+  }
+  section.hero .side-1 {
+    margin-top: 20px;
+    padding-left: 10px;
+  }
+  section.hero .text-1 {
+    padding-right: 30px;
+  }
+
+  section.hero .text-2 {
+    width: 100%;
+    padding-right: 10px;
+  }
+
+  section.hero .side-2 {
+    width: 100%;
+    height: 500px;
+  }
+  section.hero .side-2 .bg {
+    margin-top: 30px;
+    width: 100%;
+    height: 150px;
+  }
+  section.hero .side-2 .img-car {
+    margin-top: -90px;
+    margin-left: 2px;
+    width: 370px;
+  }
+
+  /* section service responsive=================================================================== */
+
+  section.service .side-1 {
+    padding: 20px 40px 20px 16px;
+  }
+
+  section.service .side-2 {
+    padding: 20px 20px 0 20px;
+  }
+
+  section.service .desc {
+    padding-right: 10px;
+  }
+
+  section.service .icon-ceklis {
+    margin-right: 5px;
+  }
+
+  /* section why us====================================================== */
+
+  section.whyus .header {
+    text-align: center;
+  }
+  section.whyus .cards {
+    margin: 10px;
+  }
+  section.whyus .desc {
+    text-align: center;
+  }
+
+  /* section cta binar */
+  section.cta-binar {
+    padding: 16px;
+  }
+  section.cta-binar .container {
+    height: 400px;
+    padding-top: 30px;
+  }
+
+  section.cta-binar .text-desc {
+    width: 200px;
+  }
+  section.cta-binar .btn {
+    margin-top: 30px;
+  }
+
+  /* section faq======================================== */
+  section.faq {
+    margin-top: 60px;
+  }
+  section.faq .text-header {
+    text-align: center;
+  }
+  section.faq .text-desc {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  /* section footer================================================ */
+  section.footer {
+    margin-top: 200px;
+    margin-bottom: 70px;
+  }
+
+  section.footer .alamat,
+  .email,
+  .cal {
+    margin-right: 70px;
+  }
+
+  section.footer .navigation {
+    margin-top: 20px;
+    text-align: left;
+    padding-left: 3px;
+  }
+
+  section.footer .sosmed {
+    margin-top: 20px;
+  }
+
+  section.footer .icons {
+    display: flex;
+    margin-top: 20px;
+  }
+  section.footer .icon {
+    width: 40px;
+    height: 40px;
+    
+    border-radius: 50px;
+    background-color: var(--blue);
+  }
+
+  section.footer .icon-img {
+    width: 16px;
+    height: 16px;
+  }
+
+  section.footer .copyright {
+    margin-top: 20px;
+  }
+
+  /*section  tetimoni ==================================*/
+  .item {
+    height: 250px;
+    background: var(--bg);
+    border-radius: 8px;
+    align-items: center;
+    padding-top: 10px;
+    text-align: center ;
+    
+  }
+  .review {
+    display: inline;
+  }
+
+  .text-review p {
+    text-align: center;
+  }
+
+  .img-pf{
+    margin:auto;
+  }
+
+  .star{
+    margin-left: 110px;
+  }
+
+  
+  
+
+}
